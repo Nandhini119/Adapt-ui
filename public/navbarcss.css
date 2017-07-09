@@ -1,0 +1,29 @@
+#footerTextAllignment{
+text-align: center;
+font-size: 12px;
+color : white !important;
+}
+h1
+{
+    font-family: 'Bree Serif', serif;
+}
+.ui.button
+{
+    margin : 10px;
+    padding : 11px;
+}
+.navbar-inverse .navbar-text
+{
+    color : white;
+}
+ h3:last-child, h4:last-child, h5:last-child, p:last-child{
+    text-align:justify;
+}
+@media only screen and (max-width: 768px)
+{
+    .navbar-brand>img
+    {
+       
+        margin-top : -15px ;
+    }
+}
